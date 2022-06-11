@@ -1,5 +1,9 @@
 .what-do {
     padding-bottom: 94px;
+
+    @include bp(not-desktop) {
+        display: none;
+    }
 }
 
 .what-do__list {
